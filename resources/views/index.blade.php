@@ -67,7 +67,7 @@
                                 <h5>Estamos aqui para você</h5>
                                 <h1>Controle Financeiro</h1>
                                 <p>Aqui na iConta$ você consegue controlar seus gastos
-                                    de um geito muito fácil. Preservando seu tempo
+                                    de um jeito muito fácil. Preservando seu tempo
                                     para coisas que realmente valem a pena.</p>
                                 <a href="/login" class="btn_2">Controle seus gastos</a>
                             </div>
