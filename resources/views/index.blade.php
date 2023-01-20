@@ -210,7 +210,7 @@
                                             <p>Contador</p>
                                         </div>
                                         <div class="col-lg-4 col-sm-4">
-                                            <img class="img-shape" src="{{ asset('img/pictures/woman-2-extra.jpg') }}" alt="doctor">
+                                            <img class="img-shape" src="{{ asset('img/pictures/woman-2.jpg') }}" alt="doctor">
                                             <h3>Cecília Nascimento</h3>
                                             <p>Engenheira</p>
                                         </div>
