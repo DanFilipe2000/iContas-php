@@ -89,7 +89,10 @@ class ExpenseController extends Controller
         }
 
         $attributes = $request->only([
-            'name'
+            'name',
+            'value',
+            'paid',
+            'due_date',
         ]);
 
         $expense->update($attributes);
@@ -130,7 +133,7 @@ class ExpenseController extends Controller
             abort(404);
         }
 
-        $expense->update(['paid' => 1]);
+        $expense->update(['paid' => 0]);
 
         return redirect('/dashboard')->with('success', 'Removido pagamento da despesa com sucesso');
     }
