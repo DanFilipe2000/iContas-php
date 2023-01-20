@@ -20,7 +20,7 @@
                                 <div class="input-group mb-4">
                                     <input type="password" class="form-control" name="password" placeholder="Senha">
                                 </div>
-                                <button type="submit" class="btn_1 mb-3" style="border: none; width: 100%;">Enviar</button>
+                                <button type="submit" class="btn_2 mb-3" style="border: none; width: 100%;">Enviar</button>
                             </form>
                             <a class="button-link" href="/login">Login</a>
                         </div>
