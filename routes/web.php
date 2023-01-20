@@ -31,4 +31,5 @@ Route::middleware('auth')->group(function() {
     Route::get('/expenses/pay/{expense}', [ExpenseController::class, 'pay'])->name('expenses.pay');
     Route::get('/expenses/unpay/{expense}', [ExpenseController::class, 'unpay'])->name('expenses.unpay');
     Route::put('/expenses/{expense}', [ExpenseController::class, 'update']);
+    Route::delete('expenses/{expense}', [ExpenseController::class, 'destroy']); 
 });

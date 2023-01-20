@@ -145,6 +145,14 @@ class ExpenseController extends Controller
      */
     public function destroy(Expense $expense)
     {
-        //
+        $user = auth()->user();
+
+        if ($expense->user_id !== $user->id) {
+            abort(404);
+        }
+
+        $expense->delete();
+
+        return redirect('/dashboard')->with('success', 'Despesa removida com sucesso');
     }
 }
