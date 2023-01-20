@@ -26,7 +26,7 @@
             @else
                 <a href="/expenses/pay/{{ $expense->id }}" class="btn_2 bg-blue mb-4" style="border: none; width: 100%;">Paga</a>
             @endif
-            <form action="/expenses" method="post">
+            <form action="/expenses/{{ $expense->id }}" method="post">
                 @csrf
                 @method('put')
                 <div class="mb-3">
